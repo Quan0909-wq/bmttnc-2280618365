@@ -92,6 +92,7 @@ class QuanLySinhVien:
         print("{:<8} {:<8} {:<8} {:<8} {:<8} {:<8}".format("ID", "Name", "Sex", "Major", "Diem TB", "Hoc Luc"))
         if (listSV.__len__() > 0):
             for sv in listSV:
+                
                 print("{:<8} {:<8} {:<8} {:<8} {:<8} {:<8}".format(sv._id, sv._name, sv._sex, sv._major, sv._diemTB, sv._hocLuc))
         print("\n")
 

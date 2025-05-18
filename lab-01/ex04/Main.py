@@ -73,6 +73,5 @@ while (1 == 1):
         print("\nBan da chon thoat chuong trinh!")
         break
     else:
-        print ("\nKKhong co chuc nang nay!")
+        print ("\nKhong co chuc nang nay!")
         print ("\nHay chon chuc nang trong hop menu.")
-           
